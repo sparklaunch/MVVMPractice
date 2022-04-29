@@ -13,7 +13,8 @@
 		907E059D281BAE3400252F1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907E058B281BAE3200252F1A /* ContentView.swift */; };
 		907E059E281BAE3400252F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 907E058C281BAE3400252F1A /* Assets.xcassets */; };
 		907E059F281BAE3400252F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 907E058C281BAE3400252F1A /* Assets.xcassets */; };
-		907E05AC281BAF3B00252F1A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907E05AB281BAF3B00252F1A /* Model.swift */; };
+		907E05AC281BAF3B00252F1A /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907E05AB281BAF3B00252F1A /* Counter.swift */; };
+		907E05AE281BAFB600252F1A /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907E05AD281BAFB600252F1A /* CounterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		907E0591281BAE3400252F1A /* MVVM Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		907E0597281BAE3400252F1A /* MVVM Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		907E0599281BAE3400252F1A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		907E05AB281BAF3B00252F1A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		907E05AB281BAF3B00252F1A /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		907E05AD281BAFB600252F1A /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +93,8 @@
 		907E05A9281BAE4C00252F1A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				907E05AB281BAF3B00252F1A /* Model.swift */,
+				907E05AB281BAF3B00252F1A /* Counter.swift */,
+				907E05AD281BAFB600252F1A /* CounterViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -203,7 +206,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				907E05AC281BAF3B00252F1A /* Model.swift in Sources */,
+				907E05AC281BAF3B00252F1A /* Counter.swift in Sources */,
+				907E05AE281BAFB600252F1A /* CounterViewModel.swift in Sources */,
 				907E059C281BAE3400252F1A /* ContentView.swift in Sources */,
 				907E059A281BAE3400252F1A /* MVVMPracticeApp.swift in Sources */,
 			);
