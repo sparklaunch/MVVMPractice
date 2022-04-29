@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/jinwookkim/Desktop/SwiftUIProjects/MVVMPractice/MVVM Practice.xcodeproj">
    </FileRef>
 </Workspace>

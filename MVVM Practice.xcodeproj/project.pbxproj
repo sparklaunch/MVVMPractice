@@ -19,8 +19,8 @@
 		907E058A281BAE3200252F1A /* MVVMPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMPracticeApp.swift; sourceTree = "<group>"; };
 		907E058B281BAE3200252F1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		907E058C281BAE3400252F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		907E0591281BAE3400252F1A /* MVVMPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		907E0597281BAE3400252F1A /* MVVMPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		907E0591281BAE3400252F1A /* MVVM Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		907E0597281BAE3400252F1A /* MVVM Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		907E0599281BAE3400252F1A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,9 +54,9 @@
 		907E0589281BAE3200252F1A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				907E058A281BAE3200252F1A /* MVVMPracticeApp.swift */,
-				907E058B281BAE3200252F1A /* ContentView.swift */,
-				907E058C281BAE3400252F1A /* Assets.xcassets */,
+				907E05AA281BAE5100252F1A /* App */,
+				907E05A9281BAE4C00252F1A /* Models */,
+				907E05A8281BAE4600252F1A /* Views */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -64,8 +64,8 @@
 		907E0592281BAE3400252F1A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				907E0591281BAE3400252F1A /* MVVMPractice.app */,
-				907E0597281BAE3400252F1A /* MVVMPractice.app */,
+				907E0591281BAE3400252F1A /* MVVM Practice.app */,
+				907E0597281BAE3400252F1A /* MVVM Practice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,12 +78,36 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		907E05A8281BAE4600252F1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				907E058B281BAE3200252F1A /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		907E05A9281BAE4C00252F1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		907E05AA281BAE5100252F1A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				907E058C281BAE3400252F1A /* Assets.xcassets */,
+				907E058A281BAE3200252F1A /* MVVMPracticeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		907E0590281BAE3400252F1A /* MVVMPractice (iOS) */ = {
+		907E0590281BAE3400252F1A /* MVVM Practice (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 907E05A2281BAE3400252F1A /* Build configuration list for PBXNativeTarget "MVVMPractice (iOS)" */;
+			buildConfigurationList = 907E05A2281BAE3400252F1A /* Build configuration list for PBXNativeTarget "MVVM Practice (iOS)" */;
 			buildPhases = (
 				907E058D281BAE3400252F1A /* Sources */,
 				907E058E281BAE3400252F1A /* Frameworks */,
@@ -93,14 +117,14 @@
 			);
 			dependencies = (
 			);
-			name = "MVVMPractice (iOS)";
+			name = "MVVM Practice (iOS)";
 			productName = "MVVMPractice (iOS)";
-			productReference = 907E0591281BAE3400252F1A /* MVVMPractice.app */;
+			productReference = 907E0591281BAE3400252F1A /* MVVM Practice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		907E0596281BAE3400252F1A /* MVVMPractice (macOS) */ = {
+		907E0596281BAE3400252F1A /* MVVM Practice (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 907E05A5281BAE3400252F1A /* Build configuration list for PBXNativeTarget "MVVMPractice (macOS)" */;
+			buildConfigurationList = 907E05A5281BAE3400252F1A /* Build configuration list for PBXNativeTarget "MVVM Practice (macOS)" */;
 			buildPhases = (
 				907E0593281BAE3400252F1A /* Sources */,
 				907E0594281BAE3400252F1A /* Frameworks */,
@@ -110,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = "MVVMPractice (macOS)";
+			name = "MVVM Practice (macOS)";
 			productName = "MVVMPractice (macOS)";
-			productReference = 907E0597281BAE3400252F1A /* MVVMPractice.app */;
+			productReference = 907E0597281BAE3400252F1A /* MVVM Practice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 907E0588281BAE3100252F1A /* Build configuration list for PBXProject "MVVMPractice" */;
+			buildConfigurationList = 907E0588281BAE3100252F1A /* Build configuration list for PBXProject "MVVM Practice" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,8 +170,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				907E0590281BAE3400252F1A /* MVVMPractice (iOS) */,
-				907E0596281BAE3400252F1A /* MVVMPractice (macOS) */,
+				907E0590281BAE3400252F1A /* MVVM Practice (iOS) */,
+				907E0596281BAE3400252F1A /* MVVM Practice (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +267,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,6 +321,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -324,7 +352,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.kim.jinwook.MVVMPractice;
-				PRODUCT_NAME = MVVMPractice;
+				PRODUCT_NAME = "MVVM Practice";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,7 +382,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.kim.jinwook.MVVMPractice;
-				PRODUCT_NAME = MVVMPractice;
+				PRODUCT_NAME = "MVVM Practice";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -384,7 +412,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.kim.jinwook.MVVMPractice;
-				PRODUCT_NAME = MVVMPractice;
+				PRODUCT_NAME = "MVVM Practice";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -412,7 +440,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.kim.jinwook.MVVMPractice;
-				PRODUCT_NAME = MVVMPractice;
+				PRODUCT_NAME = "MVVM Practice";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -422,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		907E0588281BAE3100252F1A /* Build configuration list for PBXProject "MVVMPractice" */ = {
+		907E0588281BAE3100252F1A /* Build configuration list for PBXProject "MVVM Practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				907E05A0281BAE3400252F1A /* Debug */,
@@ -431,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		907E05A2281BAE3400252F1A /* Build configuration list for PBXNativeTarget "MVVMPractice (iOS)" */ = {
+		907E05A2281BAE3400252F1A /* Build configuration list for PBXNativeTarget "MVVM Practice (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				907E05A3281BAE3400252F1A /* Debug */,
@@ -440,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		907E05A5281BAE3400252F1A /* Build configuration list for PBXNativeTarget "MVVMPractice (macOS)" */ = {
+		907E05A5281BAE3400252F1A /* Build configuration list for PBXNativeTarget "MVVM Practice (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				907E05A6281BAE3400252F1A /* Debug */,
